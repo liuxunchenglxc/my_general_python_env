@@ -1,0 +1,5 @@
+FROM python:3.13
+
+RUN pip install --no-cache-dir requests xmltodict
+
+WORKDIR /workspace
